@@ -2,3 +2,4 @@ python-telegram-bot
 pyyaml
 requests
 python-i18n
+jurigged
