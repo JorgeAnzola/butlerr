@@ -2,8 +2,9 @@ version: '3'
 services:
   butlerr:
     container_name: butlerr
-    # image: jorgeanzola/butlerr
     build:
       context: .
-#    restart: unless-stopped
+    restart: unless-stopped
     network_mode: host
+    volumes:
+      - ./src:/app
